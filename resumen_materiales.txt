@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+Buenos tardes $Nombre,<br><br>
+
+<p>La siguiente es la lista de pedidos para esta semana, dividida por locales para que puedas resaltar que se debe entregar en cada local.
+Dentro de este correo también encontrarás el arhchivo de excel con las tablas conjuntas, puedes descargarlo y filtrarlo por pedidos, 
+productos o fecha para tu comodidad.</p><br>
+
+<h2> Lista de pedidos laureles </h2>
+
+$Tlaureles
+<br><br>
+
+<h2> Lista de pedidos Aranjuez </h2>
+
+$Taranjuez
+<br><br>
+
+<p> si tienes alguna duda, no dudes en encontactarme </p><br>
+
+Cordialmente,<br><br>
+
+Esteban Franco Bedoya
+
+</body>
+</html>

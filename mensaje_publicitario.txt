@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Stamptex, revela tu identidad</title>
+<style>
+body {background-color:rgb(63,13,87);<!DOCTYPE html>
+<html>
+<head>
+<title>Stamptex, revela tu identidad</title>
+<style>
+
+h1   {color: white;background-color:rgb(215, 0, 64);}
+p    {color: white;}
+a    {color: white;style: strong}
+
+table, th, td {
+  border: 0px solid black;
+  border-collapse: collapse;
+}
+</style>
+</head>
+<body style="background-color: rgb(63,13,87); color: white">
+
+	<div style="background-color:rgb(215, 0, 64);color: white;">
+
+		<table style="width:100%;"text-align:center;"">
+  		<tr>
+    		<th colspan="2">Hola $Nombre,</th>
+    		<th><img src="https://drive.google.com/file/d/1ornfJyFbrJk9Dlanse7y3_MzNKdgEqol/view?usp=sharing" alt="logo_stamptex"></th>
+  		</tr>
+
+		</table>
+
+
+	</div>
+
+	<p>Un saludo especial por parte de nuestra empresa Stamptex. Somos tu aliado confiable para crear sentido de pertenencia y
+	 distincion en tus colaboradores por medio de la <strong>dotación empresarial.</strong> </p>
+
+
+	<p>¿Necesitas regalos y souvenires para tus clientes o colaboradores? Te invitamos a conocer nuestro brochure y ver tu empresa como una <strong>marca reconocida</strong>
+	que a su vez genera posicionamiento e identidad. </p>
+
+	<p>Solo has <a href="https://drive.google.com/file/d/1qrYiTSIZgf1KusaAn4fWHrfMFPHAwoJL/view?usp=sharing">clik aqui</a> y  cotiza todo lo que necesitas 
+	para $la_empresa</p>
+
+	<p>Cordialmente</p>
+</body>
+
+<footer style="color: white; background-color:rgb(215, 0, 64);">
+	<p><strong>Esteban Franco Bedoya</strong>,<br> Tu asistente de pedidos</p>
+	<p> Contacto de nuestros agentes comerciales<br>
+	<strong>Diana Carcamo</strong>: 310 845 2107, <br>
+    	<strong>Cristian Esteban Garcia</strong>: 312 689 3600</p>
+</footer>
+
+</html>

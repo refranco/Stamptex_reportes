@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+Buenos dias,<br><br>
+
+<p>La siguiente es la lista de pedidos del local $Nombre, organizada según la fecha de entrega. Dentro de este correo también encontrarás 
+el arhchivo de exccel con la tabla, puedes descargarlo y filtrarlo por pedidos, productos o fecha para tu comodidad.</p><br>
+
+<h2> Lista de pedidos $Nombre</h2>
+
+$tabla
+<br><br>
+
+<p> si tienes alguna duda, no dudes encontactarme </p><br>
+
+Cordialmente,<br><br>
+
+Esteban Franco Bedoya,
+
+</body>
+</html>
