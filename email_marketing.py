@@ -28,12 +28,12 @@ def main():
                            SPREADSHEET_ID = spreadsheet_id,
                            RANGE_NAME = nombre_hoja)
     clientes = pd.DataFrame(data=data[1:], columns=data[0])
-    
-    
+
+
     # Enviar correo a locales
     From = Myaddress
     for index, empresa in enumerate(clientes['NOMBRE EMPRESA EMAIL']):
-        
+
         nombre =clientes.loc[index,'CONTACTO'].split(' ')[0].title()
         email = clientes.loc[index,'EMAIL']
         To = clientes.loc[index,'EMAIL']
@@ -41,14 +41,16 @@ def main():
         # print(empresa, clientes.loc[index,'CONTACTO'].split(' ')[0].title(),
         #       clientes.loc[index,'EMAIL'], Subject, '\n')
         message = read_template(r'{}\mensaje_publicitario.txt'.format(path))
-        
-        
+
+
         message = message.substitute(Nombre=nombre,la_empresa =empresa)
-        
+
         image_path =  r'C:\Users\Estef\Dropbox (Personal)\Textamper\Marca\logo stamptex email.PNG'
         email_marketing(From,To, Subject,server, message,  image_path=image_path)
     return
 
 if __name__ == '__main__':
-    
+
     main()
+
+    # este es un comentario de cambio para github
